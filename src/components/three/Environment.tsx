@@ -36,7 +36,7 @@ export function EarthBackground({ visible }: { visible: boolean }) {
   if (!visible) return null;
 
   return (
-    <mesh ref={earthRef} position={[0, -15, -10]}>
+    <mesh ref={earthRef} position={[0, -12, 0]}>
       <sphereGeometry args={[12, 32, 32]} />
       <meshStandardMaterial
         color="#0a2a4a"
